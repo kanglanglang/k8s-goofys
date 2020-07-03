@@ -11,4 +11,5 @@ fi
 
 syslog-ng
 
+# add --debug_s3 param to debug API calls
 goofys -o allow_other -f --endpoint $ENDPOINT $BUCKET $MOUNT_DIR
